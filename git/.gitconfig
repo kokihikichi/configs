@@ -1,0 +1,19 @@
+# cd ~/.gitconfig
+[user]
+name = hikichi
+email = koki.hikichi@mail
+[core]
+     quotepath = false
+     safecrlf = false
+autocrlf = true
+[alias]
+       fp = fetch --prun
+       pr = pull --rebase
+       po = push origin
+       co = checkout
+       cm = commit
+       st = status
+       bd = branch -d
+       bD = branch -D
+[merge]
+       ff = false
